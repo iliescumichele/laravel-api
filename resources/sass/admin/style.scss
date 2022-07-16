@@ -1,0 +1,26 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+
+
+
+
+
+
+/////
+.elenco-posts .col{
+    ul{
+        margin: 0;
+        padding: 0;
+        
+        li{
+            list-style: none;
+        }
+    }
+}
