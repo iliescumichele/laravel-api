@@ -81,7 +81,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Esercizio Laravel-Auth
+                    Esercizio Laravel-Api
                 </div>
 
                 
