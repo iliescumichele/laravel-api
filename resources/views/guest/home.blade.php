@@ -7,12 +7,16 @@
 
     <!-- Styles -->
     <link href="{{ asset('css/front/style.css') }}" rel="stylesheet">
+    
+    <!-- JS -->
+    <script src="{{ asset('js/front') }}" ></script>
 
     <title>Boolpress</title>
 </head>
 <body>
     
     <h1>Boolpress</h1>
+
 
 </body>
 </html>
