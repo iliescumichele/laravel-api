@@ -1950,7 +1950,11 @@ var render = function render() {
 
   return _c("div", {
     staticClass: "container"
-  }, [_vm._v("\n        HOME VUE\n    ")]);
+  }, [_c("h1", [_vm._v("HOME VUE")]), _vm._v(" "), _c("ul", _vm._l(_vm.posts, function (post) {
+    return _c("li", {
+      key: post.id
+    }, [_c("h3", [_vm._v(_vm._s(post.title))]), _vm._v(" "), _c("p", [_vm._v(_vm._s(post.content))])]);
+  }), 0)]);
 };
 
 var staticRenderFns = [];
