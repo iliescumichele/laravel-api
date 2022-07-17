@@ -9,14 +9,17 @@
     <link href="{{ asset('css/front/style.css') }}" rel="stylesheet">
     
     <!-- JS -->
-    <script src="{{ asset('js/front') }}" ></script>
-
-    <title>Boolpress</title>
+    <script src="{{ asset('js/front.js') }}" defer></script>
+    
+    <title>Laravel-Api-Boolpress</title>
 </head>
 <body>
     
-    <h1>Boolpress</h1>
-
-
+    <div id="app">
+        
+        
+    </div>
+    
+    
 </body>
 </html>

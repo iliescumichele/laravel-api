@@ -10963,3 +10963,8 @@ body {
   background-color: #ffdc9a;
 }
 
+.container {
+  width: 75%;
+  max-width: 1000px;
+}
+
